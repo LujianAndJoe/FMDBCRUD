@@ -1,0 +1,26 @@
+//
+//  FMDB.pch
+//  FMDBSanbox
+//
+//  Created by Joe on 16/1/18.
+//  Copyright © 2016年 Joe. All rights reserved.
+//
+
+#ifndef FMDB_pch
+#define FMDB_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* FMDB_pch */
+
+
+#ifdef __OBJC__
+
+#import "FMDatabase.h"
+#import "FMDatabaseQueue.h"
+
+#import "HeaderUtiles.h"
+#import "Masonry.h"
+
+#endif
